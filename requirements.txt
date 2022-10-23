@@ -1,5 +1,4 @@
 azure-cognitiveservices-speech==1.23.0
 googletrans==3.0.0
 openai==0.24.0
-
-
+streamlit==1.10.0
