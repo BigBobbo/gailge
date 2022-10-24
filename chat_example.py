@@ -15,12 +15,11 @@ subscription = st.secrets["subscription"]
 region='eastus'
 
 st.set_page_config(
-    page_title="Streamlit Chat - Demo",
+    page_title="Gailge MVP",
     page_icon=":robot:"
 )
 
-st.header("Streamlit Chat - Demo")
-st.markdown("[Github](https://github.com/ai-yash/st-chat)")
+st.header("Gailge MVP")
 
 if 'generated' not in st.session_state:
     st.session_state["generated"] = ["Tá sé go hiontach tú a fheiceáil, tá súil agam go bhfuil do theaghlach go maith."]
