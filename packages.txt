@@ -2,3 +2,7 @@ build-essential
 libssl-dev
 libasound2
 wget
+libasound-dev
+portaudio19-dev
+python3-pyaudio
+
